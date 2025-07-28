@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lab 2</title>
+</head>
+<body>
+    <h2>First Table</h2>
+    <table id="table1" border="1">
+        <tr><td>Row 1, Cell 1</td><td>Row 1, Cell 2</td></tr>
+        <tr><td>Row 2, Cell 1</td><td>Row 2, Cell 2</td></tr>
+    </table>
+
+    <h2>Second Table</h2>
+    <table id="table2" border="1">
+        <tr>
+            <td><a href="https://example.com">Example Link</a></td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr><td>Row 2, Cell 1</td><td>Row 2, Cell 2</td></tr>
+    </table>
+
+    <h2>Images</h2>
+    <img src="1.png" alt="Image 1" />
+    <img src="2.png" alt="Image 2" />
+    <img src="3.png" alt="Image 3" />
+
+    <h2>User Data Form</h2>
+    <form id="userData">
+        <label><input type="checkbox" name="option1" value="Option 1" /> Option 1</label><br />
+        <label><input type="checkbox" name="option2" value="Option 2" checked /> Option 2</label><br />
+        <label><input type="checkbox" name="option3" value="Option 3" checked /> Option 3</label><br />
+        <label><input type="checkbox" name="option4" value="Option 4" /> Option 4</label><br />
+        <button type="button" onclick="alertCheckedCheckboxes()">Show Checked Values</button>
+    </form>
+
+    <div id="example" style="width: 200px; height: 100px; border: 1px solid black; margin-top: 20px;">
+        This is the example div.
+    </div>
+
+    <script src="lab2.js"></script>
+</body>
+</html>
