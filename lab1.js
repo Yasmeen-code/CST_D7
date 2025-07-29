@@ -9,10 +9,10 @@ console.log("Images using document.querySelectorAll('img.img2'):");
 imagesQuery.forEach((img2) => console.log(img2));
 
 const cityDropdown = document.getElementById("cityDropdown");
-const cityOptions = cityDropdown ? cityDropdown.options : [];
+const cityOptions = cityDropdown.options;
 console.log("City dropdown options:");
 for (let i = 0; i < cityOptions.length; i++) {
-  console.log(cityOptions[i].text + " (value: " + cityOptions[i].value + ")");
+  console.log(cityOptions[i].text );
 }
 
 const tables = document.getElementsByTagName("table");
